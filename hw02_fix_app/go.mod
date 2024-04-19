@@ -1,5 +1,5 @@
-module github.com/fixme_my_friend/hw02_fix_app
+module github.com/IlyaPol99/go_basic/hw02_fix_app
 
-go 1.20
+go 1.22.2
 
 require golang.org/x/example v0.0.0-20230714141244-83a29069fa80 // indirect
