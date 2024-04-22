@@ -24,6 +24,9 @@ func ReadJSON(filePath string) ([]types.Employee, error) {
 	var data []types.Employee
 
 	err = json.Unmarshal(bytes, &data)
+	if err != nil {
+		panic(err)
+	}
 
 	res := data
 
